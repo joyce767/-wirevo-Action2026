@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "touch": "^3.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
   }
 }
