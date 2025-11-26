@@ -1,0 +1,93 @@
+/* ---------- App.css ---------- */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #5D1451, #D81E5B, #FFD700);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 700px;
+  width: 95%;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.logo {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #FFD700;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+button.cta-button {
+  background: #FFD700;
+  color: #5D1451;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+  margin-top: 15px;
+}
+
+button.cta-button:hover {
+  transform: scale(1.05);
+  background: #FFC107;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-output {
+  text-align: left;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+  font-family: 'Courier New', Courier, monospace;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
