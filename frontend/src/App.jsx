@@ -82,7 +82,7 @@ function App() {
       <h1>Wirevo Action 2026 Planner</h1>
       <p className="intro">
         Unlock clarity, direction, and guidance for your business and personal
-        goals before 2026. This tool provides personalized AI advice!
+        goals before 2026. This tool provides personalized predictive advice!
       </p>
 
       {!paid ? (
